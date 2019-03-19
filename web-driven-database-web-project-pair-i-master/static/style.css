@@ -1,0 +1,125 @@
+body{
+	text-align: center;
+	background-color: #2d728f;
+	margin: auto;
+	margin-top: 0 !important;
+	height: 100%;
+	background-image: url("https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg");
+}
+#wrapper{
+	background-color: rgba(55, 62, 76, 0.8);
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	width: 65%;
+	padding: 20px;
+	font-family: arial;
+	min-height: 100vh;
+	position: absolute;
+	text-align: left;
+}
+#mainHeader{
+	background-color: #f5ee9e;
+	width: 100px;
+	padding: 20px;
+	border-radius: 50%;
+	margin: auto;
+	border: 5px solid black;
+	font-size: 18pt;
+	font-weight: 400;
+	box-shadow: 5px 10px 5px black;
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 10pt;
+	color: black;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 2px;
+	padding: 8px;
+	position: fixed;
+
+} 
+#backButton{
+	padding: 15px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	width: fit-content;
+	border-radius: 10px;
+	float: right;
+}
+#backButton:hover{
+	background-color: rgb(30, 30, 30);
+	color: rgb(230, 230, 230);
+}
+#queryHeader{
+	background-color: #f5ee9e;
+	border: 5px solid black;
+	display: inline-block;
+	padding: 15px;
+	font-size: 18pt;
+	margin: auto;
+	left: 0;
+	right: 0;
+	border-radius: 3px;
+}
+#mainBox{
+	background-color: rgba(59, 142, 165, 0.9);
+	overflow: auto;
+	margin-top: 25px;
+	height: 100vh;
+	border-radius: 3px;
+}
+.content{
+	background-color: white;
+	border-left: 5px solid black;
+	margin: auto 30px;
+	padding: 10px;
+	margin-top: 15px;
+	display: inline-block;
+}
+#special{
+	width: 90%;
+}
+.content input{
+	margin: 0;
+	float: right;
+}
+.content button{
+	margin: 0;
+	float: right;
+}
+.results{
+	text-align: left;
+}
+.data{
+	margin-top: 8px;
+	margin-left: 8px;
+	border-bottom: 1px grey dashed;
+}
+.leftBit{
+	float: left;
+}
+.divider{
+	display: inline-block;
+	margin-top: 10px;
+	padding-top: 5px;
+	border-top: 1px solid black;
+	width: 100%;
+}
+.rightBit{
+	float: right;
+	overflow: hidden;
+}
+.innerBox{
+	margin-top: 25px;
+	border: 1px dashed black;
+	padding: 5px;
+	overflow: auto;
+}
+.rightBit input{
+	float: none;
+}

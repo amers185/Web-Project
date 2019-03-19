@@ -1,0 +1,26 @@
+# web-project
+This is Group I's Web Driven Database Project.
+Authors: Max Bremer, Owen Szafran, and Syed Usama Amer
+
+Our project allows users to search records of UFO sightings based on a criteria, and then returns all UFO sightings that match all the given criteria.
+
+The user can search by one, or any number, of the following criteria:
+-Country of sighting
+-State of sighting
+-City of sighting
+-Longitude (range) of sighting
+-Latitude (range) of sighting
+-Date of sighting
+-Time of sighting
+-Shape of UFO
+-Duration of sighting
+-Keywords or phrases in witness comments
+The program then returns the result on a new page in a format that presents all of the data for each sighting in a clear and readable format. 
+
+The user can execute the web page by entering the desired criteria into the corresponding categories, and then either clicking submit or pressing enter. 
+
+Our data set can be found at this URL: 
+https://www.kaggle.com/NUFORC/ufo-sightings/data
+The organization that created the data set is called the National UFO Reporting Center, or NUFORC. We accessed it through a website called Kaggle. Kaggle states in its terms that "You will only use the Services for your own internal, personal, non-commercial use, and not on behalf of or for the benefit of any third party, and only in a manner that complies with all laws that apply to you." As we are complying by these terms, we have permission to use it. Within the dataset, there are columns for Date/Time, City, State, Country, Shape, Duration, Comments, Longitude and Latitude. 
+
+The one feature we didn't have time to implement was an interactive map where the user could click a location and have nearby sightings returned. 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<title>UFO Sightings</title>
+</head>
+<body>
+	<div id="wrapper">
+		<section class="header" id="mainHeader">
+			UFO Sightings Data
+		</section>
+		<div id="mainBox">
+		<form action="/results" method="POST">
+		<section class="content" id="special">
+			<strong>Search records of UFO Sightings! </strong>
+			<input type="submit" value="Submit">
+			
+		</section>
+		<section class="content leftBit">
+			Search by Location of Sighting <br>
+			<div class="innerBox">Geographic position: <br><input name='maxLat' type="text" placeholder="Maximum Latitude..."><input name='minLat' type="text" placeholder="Minimum Latitude..."><br><input name='maxLong' type="text" placeholder="Maximum Longitude..."><input name='minLong' type="text" placeholder="Minimum Longitude..."></div>
+			<span class="divider">Search by Duration of Sighting</span> <br>
+			<div class="innerBox">Duration in seconds: <br><input name="duration" type="text" placeholder="Seconds..."></div>
+            <span class="divider">Search by Sighting Comments</span> <br>
+            <div class="innerBox">Keyword:<br><input name="keywordSearch" type="text" placeholder="Keyword..."></div>
+		</section>
+		<section class="content rightBit">
+			Search by Country, State, and City of Sighting <br>
+			<div class="innerBox"> Country, state, city of sighting: <br><input name="country" type="text" placeholder="Country..."><input name="state" type="text" placeholder="State..."><input name="city" type="text" placeholder="City..."></div>
+			<span class="divider">Search by Date and Time of Sighting</span><br>
+			<div class="innerBox"> Date of sighting: <br><input name="date" type="date"></div> <div class="innerBox">Time of sighting: <input name="time" type="time"></div>
+            <span class="divider">Search by UFO Shape</span> <br>
+            <div class="innerBox">UFO Shape:<br><input name="shape" type="text" placeholder="Shape..."></div>
+			
+		</section>
+		
+		<br>
+		</form>
+		
+		
+		</div>
+	</div>
+	<footer class="footer"> Dataset: https://www.kaggle.com/NUFORC/ufo-sightings/data  Background Image: https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg</footer>
+</body>
+</html>
